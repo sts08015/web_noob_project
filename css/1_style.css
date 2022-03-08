@@ -1,0 +1,24 @@
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+a{
+  color:#45B8AC
+}
+.site{
+  color:#9B2335
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+@media(max-width:600px){
+  #grid{
+    display:block;
+  }
+}

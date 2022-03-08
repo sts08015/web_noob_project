@@ -1,0 +1,19 @@
+#grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.title{
+  color:#E15D44
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media(max-width:600px){
+  #grid{
+    display:block;
+  }
+}
