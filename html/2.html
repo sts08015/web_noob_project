@@ -4,15 +4,28 @@
   <title> youtube </title>
   <meta charset = "utf-8">
   <style>
+    #grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
     .title{
       color:#E15D44
+    }
+    .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
   </style>
 </head>
 
 <body>
   <h1><a href='https://www.youtube.com/' target='_blank' type=media_type class='title'>youtube</a></h1>
-  <img src='../img/youtube.jpg' width='30%'>
+
+  <span id='grid'>
+  <img src='../img/youtube.jpg' class='center'>
+  <span>
   <p>
     I love watching videos in Youtube<br>
     I watch videos in Youtube everyday<br>
@@ -33,6 +46,8 @@
     I use Youtube when I listen to music also. <br>
     I am subscribing <a href='https://music.youtube.com/' target='_blank'>Youtube Music</a><br>
     My favorite song is <strong>Intentions - Justin Bieber </strong> <br><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3AyMjyHu1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </p>
+</span>
+</span>
+<iframe class='center' height='300px' src="https://www.youtube.com/embed/3AyMjyHu1bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>

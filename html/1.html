@@ -4,11 +4,23 @@
   <title> pwnable </title>
   <meta charset = "utf-8">
   <style>
+    #grid{
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+    }
+
     a{
       color:#45B8AC
     }
     .site{
       color:#9B2335
+    }
+    .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 50%;
     }
   </style>
 </head>
@@ -16,22 +28,26 @@
 <body>
   <h1><a href='https://www.w3schools.in/ethical-hacking/system-hacking/' target='_blank' type=media_type>pwnable</a></h1>
 
-  <p>
-    I am currently studying <strong>pwnable</strong><br>
-    Pwnable is another word for <u>System Hacking</u><br>
-    Pwnable is fun but hard 😅<br>
-    I wanna be gosu 😏<br>
-    Below links are websites where I study pwnable
-  </p>
+  <span id='grid'>
+    <span>
+    <p>
+      I am currently studying <strong>pwnable</strong><br>
+      Pwnable is another word for <u>System Hacking</u><br>
+      Pwnable is fun but hard 😅<br>
+      I wanna be gosu 😏<br>
+      Below links are websites where I study pwnable
+    </p>
 
-  <p>
-    <ul>
-      <li><a href='https://dreamhack.io/' class='site'>dreamhack</a></li>
-      <li><a href='https://pwnable.tw/' class='site'>pwnable.tw</a></li>
-      <li><a href='https://pwnable.xyz/' class='site'>pwnable.xyz</a></li>
-      <li><a href='https://ctftime.org/' class='site'>CTFs</a></li>
-    </ul>
-  </p>
-
-  <br> <img src='../img/pwnable.jpg' width='30%'>
+    <p>
+      <ul>
+        <li><a href='https://dreamhack.io/' class='site'>dreamhack</a></li>
+        <li><a href='https://pwnable.tw/' class='site'>pwnable.tw</a></li>
+        <li><a href='https://pwnable.xyz/' class='site'>pwnable.xyz</a></li>
+        <li><a href='https://ctftime.org/' class='site'>CTFs</a></li>
+      </ul>
+    </p>
+    <br>
+  </span>
+    <img src='../img/pwnable.jpg' class='center'>
+  </span>
 </body>
